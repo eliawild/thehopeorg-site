@@ -1,17 +1,14 @@
 ---
-layout: single
-classes: wide
+layout: blog
 title: "Appendix 1-A: The Tree of Life Pattern in the Kabbalah"
-author: Yitzhaq Hayut-Man, Ph.D
+author: "Yitzhaq Hayut-Man, Ph.D"
 date: 2010-03-12 7:05:00 +0200
-categories: regenesis
+featuredImage: /uploads/tree-of-life_436x640.jpg
 ---
 
 ### **The Tree of the Sefirot as the Tree of Life; The 2D diagram as projection of the 5-D world of Sefer Tezirah; The parallel scheme of inter-human communications**
 
 [https://www.thehope.org/regenesis/appendix-1-a-the-tree-of-life-pattern-in-the-kabbalah/](https://www.thehope.org/regenesis/appendix-1-a-the-tree-of-life-pattern-in-the-kabbalah/)
-
-<img src="/assets/tree-of-life_436x640.jpg" alt="drawing" width="200"/>
 
 Tree of Life by David Friedman, Tsfat
 
