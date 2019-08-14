@@ -7,8 +7,7 @@
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
-        <g-link class="nav__link" to="/team">Team</g-link>
-        <a href="/admin"><strong>Edit</strong></a>
+        <g-link class="nav__link" to="/contact">Contact</g-link>
       </nav>
     </header>
     <div class="headerImg"></div>
@@ -24,7 +23,7 @@ query {
 }
 </static-query>
 
-<style>
+<style src="../main.css">
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;

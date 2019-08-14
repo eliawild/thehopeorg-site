@@ -1,7 +1,6 @@
 <template>
   <Layout>
-    <h1>{{ $page.redditPost.title }}</h1><br>
-    <img :src="$page.redditPost.img" alt="img">
+    <h1>{{ $page.redditPost.title }}</h1>
   </Layout>
 </template>
 
@@ -10,7 +9,6 @@ query RedditPost ($path: String!) {
   redditPost: redditPost (path: $path) {
     title
     path
-    img
   }
 }
 </page-query>

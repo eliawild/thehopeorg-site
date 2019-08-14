@@ -1,13 +1,9 @@
 <template>
   <Layout>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
+    <h2 class="text-4xl">Regenesis</h2>
 
-    <h2>Automatic Blogroll</h2>
-
-    <ul>
+    <ul class="text-blue-600">
       <li v-for="post in $page.posts.edges" :key="post.id">
         <g-link :to="post.node.path">
           {{ post.node.title }}
@@ -15,19 +11,13 @@
       </li>
     </ul>
 
-    <!-- <h2>Reddit /r/aww</h2> -->
+    <!-- <h2 class="text-4xl pt-5">Reddit /r/kabbalah</h2>
 
-    <!-- <ul class="post">
+    <ul class="post text-blue-600">
       <li v-for="post in $page.redditPosts.edges" :key="post.id">
-        <img :src="post.node.thumbnail" alt="img">
         <g-link :to="post.node.path">{{ post.node.title }}</g-link>
       </li>
     </ul> -->
-
-    <!-- <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p> -->
 
   </Layout>
 </template>
@@ -49,7 +39,6 @@ query {
         id
         title
         path
-        thumbnail
       }
     }
   }

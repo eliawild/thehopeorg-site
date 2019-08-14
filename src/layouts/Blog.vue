@@ -7,8 +7,7 @@
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
-        <g-link class="nav__link" to="/team">Team</g-link>
-        <g-link class="nav__link" to="/blog"><strong>Blog</strong></g-link>
+        <g-link class="nav__link" to="/contact">Contact</g-link>
       </nav>
     </header>
     <slot/>
@@ -24,7 +23,6 @@ query {
 </static-query>
 
 <style>
-
 @import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css');
 
 body {
