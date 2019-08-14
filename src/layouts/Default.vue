@@ -8,7 +8,7 @@
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
         <g-link class="nav__link" to="/team">Team</g-link>
-        <g-link class="nav__link" to="/admin"><strong>Edit</strong></g-link>
+        <a href="/admin"><strong>Edit</strong></a>
       </nav>
     </header>
     <div class="headerImg"></div>
