@@ -10,6 +10,7 @@
         <g-link class="nav__link" to="/team">Team</g-link>
       </nav>
     </header>
+    <div class="headerImg"></div>
     <slot/>
   </div>
 </template>
@@ -47,5 +48,11 @@ body {
 
 .nav__link {
   margin-left: 20px;
+}
+
+.headerImg {
+  display: block;
+  height: 220px;
+  background: center / contain no-repeat url("/uploads/header.jpg");
 }
 </style>
